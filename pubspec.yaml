@@ -1,0 +1,102 @@
+name: platina
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/languages/
+
+  fonts:
+    - family: SFProDisplay-Black
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Black.ttf
+
+    - family: SFProDisplay-BlackItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-BlackItalic.ttf
+
+    - family: SFProDisplay-Bold
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Bold.ttf
+
+    - family: SFProDisplay-BoldItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-BoldItalic.ttf
+
+    - family: SFProDisplay-Heavy
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Heavy.ttf
+
+    - family: SFProDisplay-HeavyItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-HeavyItalic.ttf
+
+    - family: SFProDisplay-Light
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Light.ttf
+
+    - family: SFProDisplay-LightItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-LightItalic.ttf
+
+    - family: SFProDisplay-Medium
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Medium.ttf
+
+    - family: SFProDisplay-MediumItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-MediumItalic.ttf
+
+    - family: SFProDisplay-Regular
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Regular.ttf
+
+    - family: SFProDisplay-RegularItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-RegularItalic.ttf
+
+    - family: SFProDisplay-Semibold
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Semibold.ttf
+
+    - family: SFProDisplay-SemiboldItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-SemiboldItalic.ttf
+
+    - family: SFProDisplay-Thin
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Thin.ttf
+
+    - family: SFProDisplay-ThinItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-ThinItalic.ttf
+
+    - family: SFProDisplay-Ultralight
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Ultralight.ttf
+
+    - family: SFProDisplay-UltralightItalic
+      fonts:
+        - asset: assets/fonts/SFProDisplay-UltralightItalic.ttf
